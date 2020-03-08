@@ -1,0 +1,21 @@
+.orange {
+    color: #d6ae59;
+}
+
+body {
+    background-image: url("../media/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#website-main-view {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#my-picture {
+    background-image: url("../media/images/me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 30rem;
+}

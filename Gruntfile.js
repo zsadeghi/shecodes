@@ -1,6 +1,9 @@
 let libs = {
     'bootstrap/dist': 'bootstrap',
-    'jquery/dist': 'jquery'
+    'jquery/dist': 'jquery',
+    'angular': 'angular',
+    'angular-route': 'angular-route',
+    '@fortawesome/fontawesome-free': 'fontawesome',
 };
 
 const fs = require('fs');
