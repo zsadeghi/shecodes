@@ -4,14 +4,19 @@
   "description": "The website for thegirlwhocodes (TM) (R)",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/index.js",
+    "dev": "nodemon ./app/index.js"
   },
   "author": "Zohreh Sadeghi",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
   },
   "devDependencies": {
-    "grunt": "^1.0.4"
+    "grunt": "^1.0.4",
+    "nodemon": "^2.0.2"
   }
 }

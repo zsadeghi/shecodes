@@ -1,5 +1,6 @@
 let libs = {
-    'bootstrap/dist': 'bootstrap'
+    'bootstrap/dist': 'bootstrap',
+    'jquery/dist': 'jquery'
 };
 
 const fs = require('fs');
@@ -31,7 +32,7 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('vendor-files', () => {
-        let vendor = path.join(__dirname, 'vendor');
+        let vendor = path.join(__dirname, 'app', 'static', 'vendor');
         if (!fs.existsSync(vendor)) {
             fs.mkdirSync(vendor);
         } else if (!fs.statSync(vendor).isDirectory()) {
@@ -40,7 +41,7 @@ module.exports = function (grunt) {
         Object.keys(libs).forEach((source) => {
             // Platform-agnostic path resolution.
             let sourcePath = path.join(__dirname, 'node_modules', source.replace(/\//g, path.sep));
-            let destinationPath = path.join(__dirname, 'vendor', libs[source].replace(/\//g, path.sep));
+            let destinationPath = path.join(vendor, libs[source].replace(/\//g, path.sep));
             copy(sourcePath, destinationPath);
         });
     });

@@ -1,0 +1,18 @@
+version: "3.0"
+
+services:
+  shecodes:
+    build: .
+    ports:
+      - 9000:3000
+    environment:
+      VIRTUAL_HOST: thegirlwho.codes,www.thegirlwho.codes
+      VIRTUAL_PORT: 9000
+      LETSENCRYPT_HOST: thegirlwho.codes,www.thegirlwho.codes
+      LETSENCRYPT_EMAIL: zohreh.sadeghi0@gmail.com
+      HTTPS_METHOD: redirect
+
+networks:
+  default:
+    external:
+      name: nginx-proxy

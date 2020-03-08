@@ -10,4 +10,4 @@
 
 # Dependencies
 node_modules
-vendor
+app/static/vendor
