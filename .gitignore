@@ -1,0 +1,9 @@
+# IntelliJ IDEA junk
+.idea
+*.ipr
+*.iml
+*.iws
+
+# macOS files
+._*
+.DS_Store

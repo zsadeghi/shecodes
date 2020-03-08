@@ -1,0 +1,11 @@
+{
+  "name": "thegirlwho.codes",
+  "version": "1.0.0",
+  "description": "The website for thegirlwhocodes (TM) (R)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zohreh Sadeghi",
+  "license": "MIT"
+}
