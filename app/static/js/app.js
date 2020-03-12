@@ -3,6 +3,10 @@
     module.config(['$routeProvider', ($routeProvider) => {
         $routeProvider.when('/', {
             templateUrl: 'views/home.ng'
+        }).when('/projects/starbox', {
+            templateUrl: 'views/projects/starbox.ng'
+        }).when('/on-the-deck/independent-study', {
+            templateUrl: 'views/on-the-deck/independent-study.ng'
         });
     }]);
 })();
