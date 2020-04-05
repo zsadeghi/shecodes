@@ -7,6 +7,8 @@
             templateUrl: 'views/projects/starbox.ng'
         }).when('/on-the-deck/independent-study', {
             templateUrl: 'views/on-the-deck/independent-study.ng'
+        }).when('/on-the-deck/research-project', {
+            templateUrl: 'views/on-the-deck/research-project.ng'
         });
     }]);
 })();
