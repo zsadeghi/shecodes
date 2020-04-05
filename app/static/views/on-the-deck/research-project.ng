@@ -1,0 +1,26 @@
+<h1>Evaluating the Performance of Firecracker as an Emerging MicroVM</h1>
+<h2>Abstract</h2>
+<p> Cloud computing involves distributing the resources of large data centers consisting of thousands of powerful servers instantaneously, and on demand to many users.
+    The original delivery model of cloud computing, infrastructure-as-s-service (IaaS), relies on the use of traditional hypervisor-based virtual machines (VMs) to segment
+    and share computer capacity. Recently new serverless container-as-a-service (CaaS) and function-as-a-service (FaaS) platforms allow for very fine-grained provisioning
+    and sharing of cloud computing resources to host  application containers and functions (e.g. microservices). Using traditional VMs for serverless platforms presents
+    several key problems, namely:</p>
+<ul>
+    <li>Slow boot time: increased startup latency for cold calls, and higher-than-desired recovery time,</li>
+    <li>Extensive overhead: full-blown operating system instances on traditional VMs feature potentially hundreds of processes,</li>
+    <li>Memory: The large footprint of traditional VMs consumes considerable memory, due to the deployment of a full guest operating system, and </li>
+    <li>Density:  A single host machine can support only a limited number of instances.</li>
+</ul>
+
+<p> Recently, alternatives to traditional VMs have appeared, including application containers (e.g. Docker, RKT), unikernel operating systems (e.g. OSv), and microVMs (e.g. firecracker).</p>
+
+<p> In this capstone, we will evaluate isolation capabilities and the extent of possible resource contention of new microVMs leveraged in modern serverless computing platforms.
+    We will evaluate the new open source Firecracker microVM, as an agile virtual machine deployment platform, and compare it to traditional hypervisor virtual machines and
+    application containers.
+    We will evaluate Firecracker’s behavior under duress and its handling of resource-intensive application deployments.
+    Our testing will include
+    1) same-kind resource contention evaluation of the engine, 2) resource orchestration by Firecracker when scaling applications.
+
+    We will use traditional hypervisor VMs as the baseline for isolation, and containers as the baseline for performance.
+    Keywords— Cloud computing, virtual machines, microVMs, Firecracker, hypervisor.
+</p>
