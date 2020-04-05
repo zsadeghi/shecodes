@@ -2,8 +2,11 @@
 <div class="row">
     <div class="col-0 col-sm-4" id="my-picture"></div>
     <div class="col-12 col-sm-8">
+        <h2>Welcome</h2>
         <p>Welcome to <a href="https://thegirlwho.codes">thegirlwho.codes</a>, a website filled with exciting
-            projects.  Grab your favorite hot drink and join me in learning through code.
+            projects. Here you will find all the projects I have worked on in the past, some things am working on right now.
+            Also many many things that are in the books for the future!
+            Grab your favorite hot drink and join me in learning through code.
          </p>
         <h2>About Me</h2>
         <p>My name is Zohre, and I am <em>the girl who codes</em> . I love working on web development projects, but I do have a full-stack under my belt.
@@ -11,7 +14,7 @@
             There is always something new to get into and try out!
             I am currently a student at <abbr title="The University of Washington, Tacoma">UWT</abbr>. I
             have worked on a number of projects before, and I am working on something quite exciting at the
-            moment. Let's just say it will set fire to the crackers <i class="fas fa-fire orange"></i>, so stay tuned.
+            moment. Let's just say it will set fire to thgse crackers <i class="fas fa-fire orange"></i>, so stay tuned.
         </p>
 
         <p>When I am not dipping my toes in technology, I love to plant, and live in a green state of mind. I believe in living in a harmonious space.
