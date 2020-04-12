@@ -23,3 +23,21 @@
     <li>I used the python script in the tutorial to do asynchronous testing</li>
 </ul>
 
+<h2> Steps For Tutorial 5</h2>
+
+<ul>
+    <li>I cloned the project</li>
+    <li>I created a CreateCSV class</li>
+    <li>I wrote Java code to generate a CSV file</li>
+    <li>I created a S3 disk called test1.bucket.562.zs</li>
+    <li>I compiled the project and created a lambda using the jar file</li>
+    <li>I created a shell script to invoke that lambda</li>
+    <li>I created a cloud trail for that S3 bucket on write access</li>
+    <li>I created a process CSV class</li>
+    <li>I attached policies to give log access to our role</li>
+    <li>I attached policies to give log access to our role</li>
+    <li>I uploaded the jar file and created a lambda for process CSV</li>
+    <li>I created a cloud watch to invoke process CSV on S3 put object events</li>
+</ul>
+
+
