@@ -40,4 +40,18 @@
     <li>I created a cloud watch to invoke process CSV on S3 put object events</li>
 </ul>
 
+<h3>Diagram demonstration</h3>
 
+<pre>
+      +-------------+  +------------+    +------------+    +------------+
++----->  CreateCSV  +--> CloudTrail +----> CloudWatch +--->+ ProcessCSV |
+|     +------+------+  +------------+    +------------+    +------+--+--+
+|            |                                                    ^  |
+|            |                                                    |  |
+|            |                   +--------------+                 |  |
+|            +------------------>+   S3 Bucket  +-----------------+  |
++                                +--------------+                    |
+Invocation                          +--------+                       |
+                                    |  Logs  +<----------------------+
+                                    +--------+
+</pre>
