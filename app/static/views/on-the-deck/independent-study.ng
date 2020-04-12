@@ -10,3 +10,16 @@
     projects.
     Each of them demonstrate a practice in Cloud Computing. Furthermore this led me to join the Cloud Computing Research
     group. </p>
+
+<h2> Steps For Tutorial 4</h2>
+
+<ul>
+    <li>I set up the project locally on my Machine</li>
+    <li>I installed <a href="https://maven.apache.org/">Maven</a> and <a href="https://www.jetbrains.com/idea/download/#section=linux">IntelliJ IDEA</a></li>
+    <li>I then tested the project locally</li>
+    <li>I created a Lambda through <a href="https://aws.amazon.com/">AWS</a></li>
+    <li>I set up an API gateway and connected that to the lambda mentioned above</li>
+    <li>I did the synchronous testing</li>
+    <li>I used the python script in the tutorial to do asynchronous testing</li>
+</ul>
+
