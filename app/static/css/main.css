@@ -19,3 +19,10 @@ body {
     background-position: top;
     min-height: 30rem;
 }
+
+a.navbar-brand span {
+    display: inline-block;
+    border-left: 1px black solid;
+    padding-left: 5px;
+    margin-left: 5px;
+}
