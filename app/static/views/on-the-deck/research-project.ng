@@ -28,6 +28,11 @@
 <p>Any research or testing starts off with finding the appropriate benchmarks, so this is where my journey began. Now before diving in and trying out these wonderful
     benchmarks we need to have a setup.
     let's see, what is the specifics of your machine? I have Ubuntu running on mine! First challenge is finding a way to install <a href="https://firecracker-microvm.github.io/">firecracker</a>
-    on my <a href="https://ubuntu.com/">Ubuntu machine</a>. This wasnt too complicated, thankfully all I need to do was follow instructions, I have documented these instructions on my
-    <a href="https://github.com/zsadeghi/manuals/blob/master/firecracker.md">github</a> page.
+    on my <a href="https://ubuntu.com/">Ubuntu machine</a>. This wasn't too complicated, thankfully all I needed to do was follow instructions, I have documented these instructions on my
+    <a href="https://github.com/zsadeghi/manuals/blob/master/firecracker.md">github</a> repository on <a href="https://github.com">Github</a>.
+</p>
+<p>Now that we have firecracker running our next step is running Ubuntu as guest on our machine. Now how do we do that you ask? well I didn't know at first but google was the best guide.
+    If you are lost and wanna know how I did it, check out my <a href="https://github.com/zsadeghi/manuals">github</a> repository. Getting Ubuntu running wasn't the first challenge. I was just
+    about to start running tests when I realized I need to set up networking, because with out it I won't be able to install software on my machine. Without software my machine wouldn't be able to
+    run any tests.
 </p>
