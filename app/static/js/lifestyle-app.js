@@ -5,10 +5,12 @@
             templateUrl: 'views/home.ng'
         }).when('/recipes/bread', {
             templateUrl: 'recipes/bread.ng'
-        }).when('/on-the-deck/independent-study', {
-            templateUrl: 'views/on-the-deck/independent-study.ng'
-        }).when('/on-the-deck/research-project', {
-            templateUrl: 'views/on-the-deck/research-project.ng'
+        }).when('/recipes/meals', {
+            templateUrl: 'recipes/meals.ng'
+        }).when('/recipes/desserts', {
+            templateUrl: 'recipes/desserts.ng'
+        }).when('/recipes/drinks', {
+            templateUrl: 'recipes/drinks.ng'
         });
     }]);
 })();
