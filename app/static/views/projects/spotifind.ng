@@ -1,1 +1,5 @@
-<p> Project Loading </p>
+<h1>A demo of Spotifind</h1>
+
+<div class="embed-responsive embed-responsive-16by9">
+<video src="/media/videos/spotifind.mp4" controls > </video>
+</div>
